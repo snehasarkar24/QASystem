@@ -1,0 +1,11 @@
+What is the class average?
+What is the class average for assignment <number>?
+What is the class average for exam <number>?
+What is <student name>’s average? 
+What is <student name>’s score for <assignment or exam>?
+Of those who <criteria>, what is their <assignment or exam score>?
+Who had <highest, lowest> score on <assignment, exam, or average>?
+How many students had <criteria>?
+Is there a <student name> in this class?
+What is <student first/last name>’s last or first name?
+Which assignment did each student score highest on?

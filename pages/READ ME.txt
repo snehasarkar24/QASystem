@@ -1,0 +1,17 @@
+Yu: 
+April 14th status:
+Finished filling in the missing code in database.py.
+Moved Query and Condition definitions to new file, query.py.
+Will work on examples and validation functions
+
+March 31st status:
+Data has been created in "student data.xlsx" and saved in "data.csv". Note that because the excel sheet calls the random function, it changes the values in excel each time. Of course, the values in the .csv are fixed, so the results will be consistent across runs.
+
+database.py: The structure of the database and query has been finished, although there is a lot of pieces of code that still needs to be filled in, i.e. how do to some of the calculations, return some results, etc.
+As it stands now, database.py can be executed to answer the question:
+"Of those that pass both exams, who scored highest on assignment 1?"
+This is done in the testing section of this file, after "if __name__ == "__main__":".
+Note that for now, the database just returns the first maximum that it finds, and can't correctly handle the case if more than one person both have that maximum.
+
+TO DO for Yu: 
+1. fill in the calculations in the Database class, write the validation functions for Query and Condition classes.
